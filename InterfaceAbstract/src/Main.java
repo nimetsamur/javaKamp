@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.Save(new Customer(1,"Engin","Demiroð",new Date(1985,01,06),"28861499108"));
+		customerManager.Save(new Customer(1,"","",new Date(,,),""));
 	}
 
 
